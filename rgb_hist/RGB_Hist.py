@@ -7,9 +7,7 @@ from PIL import Image
 import pathlib
 import os
 
-print(pathlib.Path(__file__).absolute())
+print(pathlib.Path(__file__).parent.absolute())
 #for file in sorted(os.listdir(pathlib.Path(__file__).absolute().parent)):
 #    imgi = Image.open(f'{file}.png')
 #    print(imgi)
-
-
